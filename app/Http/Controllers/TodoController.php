@@ -59,9 +59,4 @@ class TodoController extends Controller
         return redirect()->route('todos.index')->with('success', 'Todo delete successfully');
     }
 
-//    public function search(Request $request)
-//    {
-//
-//        return view('todos', compact('todos'));
-//    }
 }
